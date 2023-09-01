@@ -1,8 +1,10 @@
+from string import capwords
 
 def main():
-    for numbers in range(10):
-        for nums in range(10):
-            print(f'{numbers} * {nums} = {numbers * nums}')
+    book = "7 habits's of highly effective people"
+    print(book.title())
+    print(book.capitalize())
+    print(capwords(book))
 
 
 if __name__ =='__main__':
