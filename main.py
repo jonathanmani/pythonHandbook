@@ -1,15 +1,11 @@
 from string import capwords
 
 def main():
-    books = {
-        'C Programming Language': 35,
-        'Introduction to Algorithms': 100,
-        'Clean Code: A Handbook of Agile Software Craftsmanship': 50
-    }
+    numbers = [1,3,5,6,7,8,10,24,56,67]
 
-    key = 'C Programming Language'
+    even_numbers = filter(lambda item:  True if item % 2 == 0 else False, numbers)
 
-    print(f'The price of {key} is ${books[key]}')
+    print(list(even_numbers))
 
 
 
