@@ -1,7 +1,6 @@
-from library import greet
 
 def main():
-    greet()
+    print("Hello World")
 
 if __name__ =='__main__':
     main()
